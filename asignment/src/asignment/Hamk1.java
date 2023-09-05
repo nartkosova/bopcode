@@ -17,6 +17,15 @@ public class Hamk1 {
 		System.out.println("Would you like to calculate the sum or the subtraction? Write sum or sub.");
 		int sum = answer1 + answer2;
 		int sub = answer1 - answer2;
+		String sumsub = in.nextLine();
+		if(sumsub.equals("sum"))
+		{
+			System.out.println("The sum is: " + sum);
+		}
+		else if (sumsub.equals("sub"))
+		{
+			System.out.println("The subtraction is: " + sub);
+		}
 		
 
 	}
