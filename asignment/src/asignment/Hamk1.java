@@ -14,6 +14,10 @@ public class Hamk1 {
 		String answr = in.nextLine();
 		int answer2 = Integer.parseInt(answr);
 		
+		System.out.println("Would you like to calculate the sum or the subtraction? Write sum or sub.");
+		int sum = answer1 + answer2;
+		int sub = answer1 - answer2;
+		
 
 	}
 
